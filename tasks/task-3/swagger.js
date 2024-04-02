@@ -17,6 +17,10 @@ const swaggerOptions = {
         url: `http://localhost:${process.env.PORT || 3000}`,
         description: "Development server",
       },
+      {
+        url: `https://backend-developer-assessment.onrender.com`,
+        description: "Production server",
+      },
     ],
   },
   apis: ["tasks/task-1/auth.js", "tasks/task-2/task.js"], // Include both Task 1 and Task 2 files
